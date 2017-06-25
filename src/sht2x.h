@@ -6,6 +6,6 @@
 
 float SHT_ReadTemp(I2C_TypeDef* I2Cx);
 float SHT_ReadHumidity(I2C_TypeDef* I2Cx);
-void SHT_Reset():
+void SHT_Reset();
 
 #endif /* MY_LIBRARY_SHT2X_H_ */
